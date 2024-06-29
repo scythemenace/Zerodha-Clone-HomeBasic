@@ -28,6 +28,7 @@ ul {
 li {
     margin-left: 1rem;
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 nav>img {
@@ -80,4 +81,9 @@ nav>img {
     height: 3rem;
     width: 11rem;
     text-align: center;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background-color: #424242;
 }
